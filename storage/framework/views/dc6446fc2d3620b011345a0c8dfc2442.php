@@ -1,0 +1,3 @@
+
+<div class="chilo"><section class="intro" id="story"><div class="ch-container intro-layout"><div><div class="mono eyebrow">A DIFFERENT POINT OF VIEW</div><h2 class="intro-big">Not just a name.<br><i>A whole new</i> <span style="color:#537b5e">standard.</span></h2></div><div class="intro-aside"><p>Chilo Exotics is building a more thoughtful trade experience: clear strain records, independently reviewable batch documentation, and a straightforward way for professional partners to make informed decisions.</p><a href="<?php echo e(url('strain-index')); ?>">Meet the botanical index ↗</a></div></div></section></div>
+<?php /**PATH D:\xampp\htdocs\Chilo\resources\views/front/chilo/intro.blade.php ENDPATH**/ ?>

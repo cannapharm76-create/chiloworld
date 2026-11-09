@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 260" role="img" aria-label="Chilo Exotics">
+  <rect width="600" height="260" fill="#0d1a16"/>
+  <g transform="translate(70 70)">
+    <rect x="14" y="14" width="78" height="78" rx="14" transform="rotate(-45 53 53)" fill="none" stroke="#c7ff6c" stroke-width="5"/>
+    <text x="53" y="76" text-anchor="middle" font-family="Instrument Serif,Georgia,serif" font-size="70" fill="#f0eee7">c</text>
+    <text x="132" y="78" font-family="DM Sans,Arial,sans-serif" font-weight="700" font-size="104" letter-spacing="-8" fill="#f0eee7">chilo</text>
+    <text x="136" y="118" font-family="DM Mono,monospace" font-size="22" letter-spacing="11" fill="#c7ff6c">EXOTICS®</text>
+  </g>
+</svg>

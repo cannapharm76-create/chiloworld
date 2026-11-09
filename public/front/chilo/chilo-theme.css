@@ -1,0 +1,44 @@
+/* CHILO EXOTICS theme layer: applied on top of the compiled site CSS (loaded last). */
+:root{
+    --dashboard-accent-rgb:199 255 108;
+    --chilo-acid:#c7ff6c;--chilo-night:#0d1a16;--chilo-night2:#17281f;--chilo-ink:#10241c;
+    --chilo-paper:#f0eee7;--chilo-moss:#9cb99c;--chilo-line:#59705b;
+    --chilo-serif:'Instrument Serif',Georgia,serif;--chilo-sans:'DM Sans',Arial,sans-serif;--chilo-mono:'DM Mono',monospace;
+}
+html,body{background:var(--chilo-night)}
+body{font-family:var(--chilo-sans)}
+::selection{background:var(--chilo-acid);color:var(--chilo-ink)}
+
+/* editorial serif headlines on the core pages (brand worlds keep their own type) */
+body.theme-core main h1,
+body.theme-core main h2{font-family:var(--chilo-serif)!important;font-weight:400!important;letter-spacing:-.025em}
+body.theme-core main h1{line-height:.95}
+
+/* floating toolbar -> Chilo forest glass */
+.cv-toolbar__main-nav-panel{background:rgba(13,26,22,.62)!important;border-color:rgba(199,255,108,.14)!important}
+.cv-toolbar__link{font-family:var(--chilo-sans)}
+.cv-toolbar__link.is-selected{color:var(--chilo-acid)!important}
+.cv-toolbar__claim{background:var(--chilo-acid)!important;color:var(--chilo-ink)!important}
+
+/* primary buttons that used the neon accent */
+.bg-alien{color:var(--chilo-ink)}
+
+/* Chilo sections placed between the dark site sections */
+.chilo{font-family:var(--chilo-sans)}
+.chilo .ticker-track{font-family:var(--chilo-serif)}
+.chilo-home .intro,.chilo-home .featured,.chilo-home .editorial{color:var(--chilo-ink)}
+
+/* strain index page sits under the fixed toolbar */
+.chilo-page{background:var(--ch-paper,#f0eee7)}
+.chilo-page .catalog-hero{padding-top:150px}
+.ch-savedbar{background:#e2e6dc;border-bottom:1px solid #cfd8cc;position:sticky;top:0;z-index:40}
+.ch-savedbar .ch-container{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:64px}
+.ch-savedbar .nav-pill{background:transparent;color:var(--chilo-ink)}
+.ch-savedbar .nav-pill:hover{background:var(--chilo-ink);color:#fff}
+
+/* site footer spacing */
+.chilo .footer{margin-top:0}
+
+/* logo is a link to home */
+.cv-toolbar__logo-link{display:inline-flex;align-items:center;cursor:pointer;line-height:0}
+.cv-toolbar__logo-link:hover{opacity:.85}

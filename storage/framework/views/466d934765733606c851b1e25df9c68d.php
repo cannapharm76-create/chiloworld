@@ -1,0 +1,3 @@
+
+<div class="chilo"><div class="ticker" aria-hidden="true"><div class="ticker-track"><span>Intentional sourcing <b>✳</b> Responsible documentation <b>✳</b> Genetic diversity <b>✳</b> Built for the details <b>✳</b></span><span>Intentional sourcing <b>✳</b> Responsible documentation <b>✳</b> Genetic diversity <b>✳</b> Built for the details <b>✳</b></span></div></div></div>
+<?php /**PATH D:\xampp\htdocs\Chilo\resources\views/front/chilo/ticker.blade.php ENDPATH**/ ?>

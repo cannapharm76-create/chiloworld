@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 580" role="img" aria-label="Chilo Exotics verified seal">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#17281f"/>
+      <stop offset="1" stop-color="#0d1a16"/>
+    </linearGradient>
+    <pattern id="scratch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="10" height="10" fill="#d5d7cb"/>
+      <rect width="4" height="10" fill="#c3c7b7"/>
+    </pattern>
+  </defs>
+  <rect x="105" y="38" width="750" height="504" rx="46" fill="url(#g)" stroke="#c7ff6c" stroke-width="4"/>
+  <rect x="125" y="58" width="710" height="464" rx="30" fill="none" stroke="#59705b" stroke-width="2" stroke-dasharray="2 10"/>
+  <!-- wordmark -->
+  <g transform="translate(172 92)">
+    <rect x="18" y="18" width="80" height="80" rx="14" transform="rotate(-45 58 58)" fill="none" stroke="#f0eee7" stroke-width="5"/>
+    <text x="58" y="82" text-anchor="middle" font-family="Instrument Serif,Georgia,serif" font-size="74" fill="#f0eee7">c</text>
+    <text x="140" y="80" font-family="DM Sans,Arial,sans-serif" font-weight="700" font-size="104" letter-spacing="-8" fill="#f0eee7">chilo</text>
+    <text x="400" y="80" font-family="DM Mono,monospace" font-size="26" letter-spacing="9" fill="#c7ff6c">EXOTICS®</text>
+  </g>
+  <!-- left: verified mark -->
+  <g transform="translate(172 262)">
+    <circle cx="118" cy="118" r="112" fill="none" stroke="#c7ff6c" stroke-width="4"/>
+    <circle cx="118" cy="118" r="94" fill="#10241c" stroke="#9cb99c" stroke-width="2" stroke-dasharray="3 7"/>
+    <path d="M70 120l32 32 64-68" fill="none" stroke="#c7ff6c" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="118" y="206" text-anchor="middle" font-family="DM Mono,monospace" font-size="17" letter-spacing="5" fill="#9cb99c">VERIFIED</text>
+  </g>
+  <!-- scratch panel -->
+  <rect x="440" y="250" width="290" height="250" rx="10" fill="url(#scratch)"/>
+  <text x="585" y="358" text-anchor="middle" font-family="Instrument Serif,Georgia,serif" font-style="italic" font-size="50" fill="#10241c">Scratch</text>
+  <text x="585" y="408" text-anchor="middle" font-family="Instrument Serif,Georgia,serif" font-style="italic" font-size="50" fill="#10241c">&amp; earn</text>
+  <text x="790" y="380" text-anchor="middle" transform="rotate(-90 790 380)" font-family="DM Mono,monospace" font-size="30" letter-spacing="6" fill="#f0eee7">CH140001</text>
+</svg>

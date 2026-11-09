@@ -1,0 +1,10 @@
+/* additions on top of the compiled Cannaverse stylesheets */
+.cv-drawer{position:fixed;inset:0;z-index:20000;background:rgba(13,26,22,.96);-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px);display:flex;align-items:center;justify-content:center;opacity:0;visibility:hidden;transition:opacity .25s ease,visibility .25s}
+.cv-drawer.is-open{opacity:1;visibility:visible}
+.cv-drawer nav{display:flex;flex-direction:column;align-items:center;gap:18px}
+.cv-drawer a{color:#f0eee7;font-family:"Instrument Serif",Georgia,serif;font-size:34px;font-weight:400;text-decoration:none;letter-spacing:-.02em}
+.cv-drawer a:hover,.cv-drawer a.is-selected{color:#c7ff6c}
+.cv-drawer__close{position:absolute;top:18px;right:20px;width:44px;height:44px;border:0;border-radius:50%;background:#ffffff1a;color:#fff;font-size:28px;line-height:1;cursor:pointer}
+.cv-flash{position:fixed;top:90px;left:50%;transform:translateX(-50%);z-index:20001;max-width:calc(100% - 32px);padding:12px 18px;border-radius:12px;background:#17281f;border:1px solid #c7ff6c;color:#fff;font-size:14px;box-shadow:0 10px 30px #0008;transition:opacity .4s}
+.cv-flash--error{border-color:#ff4d6d}
+.cv-flash.is-hidden{opacity:0;pointer-events:none}
